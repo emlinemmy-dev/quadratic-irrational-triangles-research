@@ -1,7 +1,12 @@
-# Approximating-Irrational-Triangles
-Abstract: This research examines the approximation of quadratic-irrational right triangles represented by the triple (α, β, γ) with α² + β² = γ². Given such a triangle, we provide a formula for the integer triple (aₙ, bₙ, cₙ), which yields increasingly accurate approximations as n → ∞. We prove that there exists a characteristic equation pα + qβ − rγ = 0, where p, q, and r are integers, which encompasses the ratios of the sides of the triangle. The value |paₙ + qbₙ − rcₙ| remains constant for all positive n.
+# Approximating Irrational Triangles – Muhlenberg College Research
 
-This research is examining quadratic irrational points, points (x,y) such that x and y are both quadratic irrational numbers (see more here: https://en.wikipedia.org/wiki/Quadratic_irrational_number). These points can be translated onto the unit circle to create right triangles. The triangles help us visualize how quadratic irrational points approximate rational ones. We imagine a quadratic irrational triangle (one that was translated from a point) growing larger and larger until it's ratio of it's sides get closer and closer to it's rational equivalent. These rational equivalents already exist because they can be produced via berggren trees. Take a look here: https://en.wikipedia.org/wiki/Tree_of_primitive_Pythagorean_triples
+Undergraduate mathematical research conducted under Professor Byungchul Cha investigating the geometric and algebraic properties of quadratic-irrational right triangles.
 
-I conducted this research under Professor Byungchul Cha by generating a few examples, understanding the characteristic equation he proposed, and presenting all results at Mathfest 2023 in Tampa, FL. 
+## Abstract
+This research examines the approximation of quadratic-irrational right triangles represented by the triple $(\alpha, \beta, \gamma)$ with $\alpha^2 + \beta^2 = \gamma^2$. Given such a triangle, we provide a formula for the integer triple $(a_n, b_n, c_n)$, which yields increasingly accurate approximations as $n \to \infty$. We prove that there exists a characteristic equation $p\alpha + q\beta - r\gamma = 0$, where $p, q, r \in \mathbb{Z}$, which encompasses the ratios of the sides of the triangle. The value $|pa_n + qb_n - rc_n|$ remains constant for all positive $n$.
 
+## Theoretical Context & Implementation
+* **Geometric Translation:** Mapped quadratic irrational points $(\alpha, \beta)$ onto the unit circle to construct corresponding right triangles, visualizing how quadratic irrational shapes approximate rational equivalents.
+* **Pythagorean Trees:** Modeled converging side ratios toward rational counterparts generated via Berggren tree structures (trees of primitive Pythagorean triples).
+* **Data Generation:** Developed Python scripts to automate sequence generation for integer triples, verifying model stability and tracking asymptotic behavior over infinite iterations.
+* **Dissemination:** Selected to deliver an oral presentation on the underlying spatial models and characteristic equations at MathFest 2023 in Tampa, FL.
